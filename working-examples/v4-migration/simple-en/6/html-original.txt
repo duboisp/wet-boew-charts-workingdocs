@@ -1,0 +1,15 @@
+<table class="wb-charts wb-charts-pie">
+	<caption>Tableau avec un item a 100%</caption>
+	<thead>
+		<tr>
+			<td></td>
+			<th>Value</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Mary</th>
+			<td>300</td>
+		</tr>
+	</tbody>
+</table>

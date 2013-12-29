@@ -1,0 +1,31 @@
+<table class="wb-charts area">
+	<caption>Certaines données</caption>
+	<thead>
+		<tr>
+			<th>En-tète de colonne pour un en-tête de rangée</th>
+			<th>col1</th>
+			<th>col2</th>
+			<th>col3</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>En-tête de rangée 1</th>
+			<td>50</td>
+			<td>100</td>
+			<td>150</td>
+		</tr>
+		<tr>
+			<th>En-tête de rangée 2</th>
+			<td>210</td>
+			<td>25</td>
+			<td>75</td>
+		</tr>
+		<tr>
+			<th>En-tête de rangée 3</th>
+			<td>1000</td>
+			<td>245</td>
+			<td>964</td>
+		</tr>
+	</tbody>
+</table>
