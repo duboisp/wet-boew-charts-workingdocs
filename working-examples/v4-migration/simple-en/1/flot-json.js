@@ -1,4 +1,3 @@
-
 // Series
 [
 	{"data":[[0,50],[1,100],[2,150]],"label":"Row heading 1","color":"#8d201c","lines":{"show":true,"fill":true}},
