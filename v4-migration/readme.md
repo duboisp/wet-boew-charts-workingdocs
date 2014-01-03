@@ -1,6 +1,8 @@
 Migration to WET 4 Architecture
 ===========================
 
+_See completed change at the ends (v4 migration notes)_
+
 Goal
 ---------------------------
 
@@ -232,10 +234,11 @@ Be Styled
 
 The grunt build script help to avoid minimal styling error.
 
-Currently Done
+Currently Done - To be included in v4 migration notes
 ---------------------------
 
 * The labeling strategy and code was fully re-written in order to be more clear and more usable.
+* Default chart type was change for the default flot chart. That means default are now a line chart and bar chart need to be explicitly defined
 
 Background about migration strategy prior WET 4
 ---------------------------
