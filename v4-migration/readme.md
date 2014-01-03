@@ -26,6 +26,14 @@ On Going
 
 Goal: Use the flot data structure from a HTML data attribute set on a table element. 
 
+Done for:
+
+* Global flot setting (set on ```<table>``` element)
+* 2d charts (area, bar, line)
+
+Todo:
+* Redifine the support for a stacked charts. Now it is disabled and only bar charts is supported. 
+* For Bar charts side by side, try to use an existing plugin for providing support.
 
 #### Type of table elements 
 
