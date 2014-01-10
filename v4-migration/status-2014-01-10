@@ -1,0 +1,43 @@
+
+_(Copy and paste of my answer to a status update requested to me by email)_
+
+I am hopping to have it ready for mergin early next week. I almost ready to send the PR. Also I created a new repository, instead of having it on paper, to help me during the coding, to allow others to follow my ongoing development and to provide a central way to provide technical draft documentation. (https://github.com/duboisp/wet-boew-charts-workingdocs/tree/master/v4-migration)
+
+I may need help to find the best flot plugin to do side-by-side bar chart.
+
+
+Before to send the PR, I need to
+
+1. Complete the way that setting is applied
+
+ I need to change the way that the wet charts specific options is obtained from the table. Currently it still CSS option but I am looking to change it to use a dedicated data attribute. 
+
+ Like to use: 
+ * ```data-flot``` for flot specific options
+ * ```data-wet-boew``` for Charts specific options and define preset
+
+ (FYI - https://github.com/duboisp/wet-boew-charts-workingdocs/issues/2) 
+
+2. Find a stable Flot plugin for creating side-by-side bar chart
+
+ _Currently that is simulated and I needed to remove temporary the support for staked chart_
+ 
+ I found a few project that support it like:
+ * http://en.benjaminbuffet.com/labs/flot/
+ * https://github.com/pkoltermann/SideBySideImproved
+
+ TODO:
+ * Search for other existing solution
+ * Test and evaluate side-by-side bar chart solution with a flot working example.
+ * Make the best choice and add the plugin
+
+3. Cleanup the code
+
+ * Safetly Remove the function setClassOptions()
+ * Move the JSON default setting for wet charts and flot at the begining of the file
+ * Change the way the complex table parser is loaded (https://github.com/wet-boew/wet-boew/issues/3624#issuecomment-31903589)
+
+4. Update the working example
+
+ Test if the visual charts result is what it is expected to be. (Screen shoot for basic reference are located here: https://github.com/duboisp/wet-boew-charts-workingdocs/tree/master/working-examples/v4-migration )
+
