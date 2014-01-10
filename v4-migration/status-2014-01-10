@@ -1,7 +1,6 @@
-
 _(Copy and paste of my answer to a status update requested to me by email)_
 
-I am hopping to have it ready for mergin early next week. I almost ready to send the PR. Also I created a new repository, instead of having it on paper, to help me during the coding, to allow others to follow my ongoing development and to provide a central way to provide technical draft documentation. (https://github.com/duboisp/wet-boew-charts-workingdocs/tree/master/v4-migration)
+I am hopping to have it ready for merging early next week. I almost ready to send the PR. Also I created a new repository, instead of having it on paper, to help me during the coding, to allow others to follow my ongoing development and to provide a central way to provide technical draft documentation. (https://github.com/duboisp/wet-boew-charts-workingdocs/tree/master/v4-migration)
 
 I may need help to find the best flot plugin to do side-by-side bar chart.
 
@@ -33,8 +32,8 @@ Before to send the PR, I need to
 
 3. Cleanup the code
 
- * Safetly Remove the function setClassOptions()
- * Move the JSON default setting for wet charts and flot at the begining of the file
+ * Safely Remove the function setClassOptions()
+ * Move the JSON default setting for wet charts and flot at the beginning of the file
  * Change the way the complex table parser is loaded (https://github.com/wet-boew/wet-boew/issues/3624#issuecomment-31903589)
 
 4. Update the working example
