@@ -46,6 +46,13 @@ By using a CSS option, it is possible to load preset, see pie.html working for a
 
 It is also possible to extends a deeper function, the function name will look to ```/series/pie/labelformater```
 
+#### A few working example
+
+http://universallabs.org//chartv4-dev/dist/unmin/demos/charts/pie-en.html
+http://universallabs.org//chartv4-dev/dist/unmin/demos/charts/labelsandreferencevalue-en.html
+
+
+
 #### Type of table elements 
 
 * The container: ```<table>```
