@@ -30,6 +30,7 @@ Done for:
 
 * Global flot setting (set on ```<table>``` element)
 * 2d charts (area, bar, line)
+* Pie charts (setting location is now set on the cell header)
 
 Todo:
 * Redifine the support for a stacked charts. Now it is disabled and only bar charts is supported. 
@@ -247,6 +248,8 @@ Currently Done - To be included in v4 migration notes
 
 * The labeling strategy and code was fully re-written in order to be more clear and more usable.
 * Default chart type was change for the default flot chart. That means default are now a line chart and bar chart need to be explicitly defined
+* Custom Parameter for pie chart was changed from the data cell location to be set to the appropriate cell header.
+* Any Flot parameter is set by using the ```data-flot``` attribute. Table for Flot global setting and appropriate cell header for Flot series setting.
 
 Background about migration strategy prior WET 4
 ---------------------------
