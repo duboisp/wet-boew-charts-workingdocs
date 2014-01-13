@@ -21,6 +21,12 @@ On Going
 * Looking to keep the "preset" functionality from ```setClassOptions()``` function
 * Looking on how to keep the justification on how some technical decision was take and will be taken.
 
+Todo:
+* Redifine the support for a stacked charts. Now it is disabled and only bar charts is supported. 
+* For Bar charts side by side, try to use an existing plugin for providing support.
+* Adapt each working example with the new way to provide data ```data-flot``` and ```data-wet-boew```
+* Find a way to ease the adhoc integration of preset.
+
 
 ### JSON Data
 
@@ -31,10 +37,13 @@ Done for:
 * Global flot setting (set on ```<table>``` element)
 * 2d charts (area, bar, line)
 * Pie charts (setting location is now set on the cell header)
+* Global charts settings (set on ```<table>``` element)
 
-Todo:
-* Redifine the support for a stacked charts. Now it is disabled and only bar charts is supported. 
-* For Bar charts side by side, try to use an existing plugin for providing support.
+
+#### Predefined Preset
+
+By using a CSS option, it is possible to load preset, see pie.html working for an example.
+
 
 #### Type of table elements 
 
