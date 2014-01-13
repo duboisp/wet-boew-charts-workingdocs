@@ -44,6 +44,7 @@ Done for:
 
 By using a CSS option, it is possible to load preset, see pie.html working for an example.
 
+It is also possible to extends a deeper function, the function name will look to ```/series/pie/labelformater```
 
 #### Type of table elements 
 
