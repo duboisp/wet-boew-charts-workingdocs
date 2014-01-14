@@ -12,6 +12,17 @@ Goal
 * Take the full advantage of JEP (Javascript Event Programming)
 * Write code with style (lint)
 
+Currently Done - The Chart WET v4.0 migration notes
+---------------------------
+
+* The labeling strategy and code was fully re-written in order to be more clear and more usable.
+* Default chart type was change for the default flot chart. That means *default are now a line chart* and bar chart need to be explicitly defined
+* Custom Parameter for pie chart was changed from the data cell location to be set to the appropriate cell header.
+* Any Flot parameter is now set by using the ```data-flot``` attribute. On the ```<table>``` for Flot global setting and on the appropriate ```<th>``` for Flot series setting.
+* Charts specific setting use the ````data-wet-boew``` attribute.
+* CSS options is now only a facilitator of applying/extending defaults settings 
+* overwride setting with a Javascript function require to be defined in the object ```fn``` and the name of the function is a path to where it belong to. ex ```"/getcellvalue"```. The path structure is inspired by RFC6902 JSON Patch. It is like that because I have experienced some issue regarding to extend type that are javacript function where the declared function are ```deep``` into the setting. I know Flot have hierchical setting and can contain declared function ```deep``` in the setting. The ```$.extend(true, ...)``` said - On a deep extend, Object and Array are extended, but object wrappers on primitive types such as String, Boolean, and Number are not.
+
 
 On Going
 ---------------------------
@@ -260,14 +271,6 @@ Be Styled
 ---------------------------
 
 The grunt build script help to avoid minimal styling error.
-
-Currently Done - To be included in v4 migration notes
----------------------------
-
-* The labeling strategy and code was fully re-written in order to be more clear and more usable.
-* Default chart type was change for the default flot chart. That means default are now a line chart and bar chart need to be explicitly defined
-* Custom Parameter for pie chart was changed from the data cell location to be set to the appropriate cell header.
-* Any Flot parameter is set by using the ```data-flot``` attribute. Table for Flot global setting and appropriate cell header for Flot series setting.
 
 Background about migration strategy prior WET 4
 ---------------------------
