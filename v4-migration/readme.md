@@ -27,6 +27,7 @@ Todo:
 * Adapt each working example with the new way to provide data ```data-flot``` and ```data-wet-boew```
 * Find a way to ease the adhoc integration of preset.
 
+* Suggestion: Discuss about the name for the setting ```reverseTblParsing``` to know if it is enough meaningful as is and a web editior will know (by deduction) that the primary vector is the table column then the secondary vector is the table row. This is a reverse parsing methodology compared of what is written in the HTML5 specification in regards of how to parse a table.
 
 ### JSON Data
 
