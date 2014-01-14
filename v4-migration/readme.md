@@ -49,9 +49,9 @@ It is also possible to extends a deeper function, the function name will look to
 
 #### A few working example
 
-http://universallabs.org//chartv4-dev/dist/unmin/demos/charts/pie-en.html
-http://universallabs.org//chartv4-dev/dist/unmin/demos/charts/labelsandreferencevalue-en.html
-
+* http://universallabs.org//chartv4-dev/dist/unmin/demos/charts/pie-en.html
+* http://universallabs.org//chartv4-dev/dist/unmin/demos/charts/labelsandreferencevalue-en.html
+* http://universallabs.org//chartv4-dev/dist/unmin/demos/charts/pieparsevertical-en.html
 
 
 #### Type of table elements 
