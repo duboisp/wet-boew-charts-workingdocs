@@ -23,15 +23,17 @@ Currently Done - The Chart WET v4.0 migration notes
 * CSS options is now only a facilitator of applying/extending defaults settings 
 * overwride setting with a Javascript function require to be defined in the object ```fn``` and the name of the function is a path to where it belong to. ex ```"/getcellvalue"```. The path structure is inspired by RFC6902 JSON Patch. It is like that because I have experienced some issue regarding to extend type that are javacript function where the declared function are ```deep``` into the setting. I know Flot have hierchical setting and can contain declared function ```deep``` in the setting. The ```$.extend(true, ...)``` said - On a deep extend, Object and Array are extended, but object wrappers on primitive types such as String, Boolean, and Number are not.
 * Added support for flot plugin ```orderBars``` the revised version at https://github.com/pkoltermann/SideBySideImproved
-
+* Working example, reworked and migrated
+* adhoc preset integration will work with the global variable ```chartsGraphOpts``` where exist a direct child named  "flot", "series" or/and "charts"
+* jquery.flot.orderBars.js provided from  https://github.com/pkoltermann/SideBySideImproved Added to the build script
+* Modified the WET build script to support adhoc WET js dependency. That is done by adding file in the deps folder of the plugins.
+* See pull request (PR): https://github.com/wet-boew/wet-boew/pull/4398
 
 On Going
 ---------------------------
 
 Todo:
-* Adapt each working example with the new way to provide data ```data-flot``` and ```data-wet-boew```
-* Find a way to ease the adhoc integration of preset.
-* add to the build script the project jquery.flot.orderBars.js provided from  https://github.com/pkoltermann/SideBySideImproved
+
 
 * Suggestion: Discuss about the name for the setting ```reverseTblParsing``` to know if it is enough meaningful as is and a web editior will know (by deduction) that the primary vector is the table column then the secondary vector is the table row. This is a reverse parsing methodology compared of what is written in the HTML5 specification in regards of how to parse a table.
 
